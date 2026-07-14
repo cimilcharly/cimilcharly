@@ -201,14 +201,14 @@
     <text class="header-text" x="0" y="0">🎮 SKILL ENGINE (SNAKE.EXE)</text>
     
     <!-- Scoreboard (Dynamically toggling opacities) -->
-    <text class="text" x="320" y="0">SCORE: </text>
-    <text class="text score-val score-0" x="370" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">00</text>
-    <text class="text score-val score-1" x="370" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">10</text>
-    <text class="text score-val score-2" x="370" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">20</text>
-    <text class="text score-val score-3" x="370" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">30</text>
-    <text class="text score-val score-4" x="370" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">40</text>
+    <text class="text" x="310" y="0">SCORE: </text>
+    <text class="text score-val score-0" x="360" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">0000</text>
+    <text class="text score-val score-1" x="360" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">2450</text>
+    <text class="text score-val score-2" x="360" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">5120</text>
+    <text class="text score-val score-3" x="360" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">7890</text>
+    <text class="text score-val score-4" x="360" y="0" style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">9990</text>
 
-    <text class="text" x="430" y="0">HI-SCORE: <tspan style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">99</tspan></text>
+    <text class="text" x="430" y="0">HI-SCORE: <tspan style="fill: #38bdf8; font-weight: bold; filter: url(#glow);">9990</tspan></text>
     
     <!-- Divider Line -->
     <line x1="0" y1="12" x2="560" y2="12" stroke="#1e293b" stroke-width="1.5" />
@@ -320,7 +320,7 @@
       <text class="text" x="0" y="50">• Python, Java, C, Kotlin</text>
       <text class="text" x="0" y="70">• JavaScript &amp; TypeScript</text>
       <text class="text" x="0" y="90">• OOP Concepts &amp; Structures</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE SEGMENTS +1]</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SCORE: +2450pts]</text>
     </g>
 
     <!-- Log 2: Backend & DB -->
@@ -330,7 +330,7 @@
       <text class="text" x="0" y="50">• FastAPI &amp; Django Frameworks</text>
       <text class="text" x="0" y="70">• PostgreSQL, MongoDB, SQLite</text>
       <text class="text" x="0" y="90">• RESTful API Engineering</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE SEGMENTS +1]</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SCORE: +2670pts]</text>
     </g>
 
     <!-- Log 3: AI & ML -->
@@ -340,7 +340,7 @@
       <text class="text" x="0" y="50">• Machine Learning Workflows</text>
       <text class="text" x="0" y="70">• NLP &amp; Data Pipeline Design</text>
       <text class="text" x="0" y="90">• LLM Integrations (GPT-4)</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE SEGMENTS +1]</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SCORE: +2770pts]</text>
     </g>
 
     <!-- Log 4: Cloud & Deployment -->
@@ -350,7 +350,7 @@
       <text class="text" x="0" y="50">• Docker Containerization</text>
       <text class="text" x="0" y="70">• Google Cloud Platform (GCP)</text>
       <text class="text" x="0" y="90">• Vercel Deployment &amp; Config</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SKILL STACK OPTIMIZED!]</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SCORE: +2100pts | MAX SCORE!]</text>
     </g>
   </g>
 
