@@ -65,13 +65,13 @@
     .milestone-active { opacity: 1; }
     .milestone-eaten { opacity: 0; }
 
-    /* CSS Keyframes for Timeline Events (20s Loop) */
+    /* CSS Keyframes for Timeline Events (10s Loop) */
     
     /* Segment Grow animations */
-    .seg-3 { animation: grow-3 20s infinite steps(1); }
-    .seg-4 { animation: grow-4 20s infinite steps(1); }
-    .seg-5 { animation: grow-5 20s infinite steps(1); }
-    .seg-6 { animation: grow-6 20s infinite steps(1); }
+    .seg-3 { animation: grow-3 10s infinite steps(1); }
+    .seg-4 { animation: grow-4 10s infinite steps(1); }
+    .seg-5 { animation: grow-5 10s infinite steps(1); }
+    .seg-6 { animation: grow-6 10s infinite steps(1); }
 
     @keyframes grow-3 {
       0%, 4.35% { opacity: 0; }
@@ -91,17 +91,17 @@
     }
 
     /* Milestone active/eaten toggles */
-    .m1-active { animation: boot-fade 20s infinite steps(1); }
-    .m1-eaten  { animation: state1-to-end 20s infinite steps(1); }
+    .m1-active { animation: boot-fade 10s infinite steps(1); }
+    .m1-eaten  { animation: state1-to-end 10s infinite steps(1); }
 
-    .m2-active { animation: m2-active-fade 20s infinite steps(1); }
-    .m2-eaten  { animation: state2-to-end 20s infinite steps(1); }
+    .m2-active { animation: m2-active-fade 10s infinite steps(1); }
+    .m2-eaten  { animation: state2-to-end 10s infinite steps(1); }
 
-    .m3-active { animation: m3-active-fade 20s infinite steps(1); }
-    .m3-eaten  { animation: state3-to-end 20s infinite steps(1); }
+    .m3-active { animation: m3-active-fade 10s infinite steps(1); }
+    .m3-eaten  { animation: state3-to-end 10s infinite steps(1); }
 
-    .m4-active { animation: m4-active-fade 20s infinite steps(1); }
-    .m4-eaten  { animation: state4-to-end 20s infinite steps(1); }
+    .m4-active { animation: m4-active-fade 10s infinite steps(1); }
+    .m4-eaten  { animation: state4-to-end 10s infinite steps(1); }
 
     @keyframes boot-fade {
       0%, 4.35% { opacity: 1; }
@@ -137,11 +137,11 @@
     }
 
     /* Terminal logs state toggling */
-    .log-boot { animation: boot-fade 20s infinite steps(1); }
-    .log-state-1 { animation: state1-fade 20s infinite steps(1); }
-    .log-state-2 { animation: state2-fade 20s infinite steps(1); }
-    .log-state-3 { animation: state3-fade 20s infinite steps(1); }
-    .log-state-4 { animation: state4-fade 20s infinite steps(1); }
+    .log-boot { animation: boot-fade 10s infinite steps(1); }
+    .log-state-1 { animation: state1-fade 10s infinite steps(1); }
+    .log-state-2 { animation: state2-fade 10s infinite steps(1); }
+    .log-state-3 { animation: state3-fade 10s infinite steps(1); }
+    .log-state-4 { animation: state4-fade 10s infinite steps(1); }
 
     .log-boot, .log-state-1, .log-state-2, .log-state-3, .log-state-4 {
       opacity: 0;
@@ -168,11 +168,11 @@
     }
 
     /* Scores toggling classes matching state keyframes */
-    .score-0 { animation: boot-fade 20s infinite steps(1); }
-    .score-1 { animation: state1-fade 20s infinite steps(1); }
-    .score-2 { animation: state2-fade 20s infinite steps(1); }
-    .score-3 { animation: state3-fade 20s infinite steps(1); }
-    .score-4 { animation: state4-fade 20s infinite steps(1); }
+    .score-0 { animation: boot-fade 10s infinite steps(1); }
+    .score-1 { animation: state1-fade 10s infinite steps(1); }
+    .score-2 { animation: state2-fade 10s infinite steps(1); }
+    .score-3 { animation: state3-fade 10s infinite steps(1); }
+    .score-4 { animation: state4-fade 10s infinite steps(1); }
 
     .green-highlight {
       fill: #10b981;
@@ -264,32 +264,32 @@
     
     <!-- Tail Segments (grow dynamically) -->
     <circle class="snake-tail seg-6" cx="0" cy="0" r="5.5">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-1.956s" />
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.978s" />
     </circle>
 
     <circle class="snake-body seg-5" cx="0" cy="0" r="5.5">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-1.63s" />
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.815s" />
     </circle>
 
     <circle class="snake-body seg-4" cx="0" cy="0" r="5.5">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-1.304s" />
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.652s" />
     </circle>
 
     <circle class="snake-body seg-3" cx="0" cy="0" r="6">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.978s" />
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.489s" />
     </circle>
 
     <!-- Always active core elements -->
     <circle class="snake-body" cx="0" cy="0" r="6">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.652s" />
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.326s" />
     </circle>
 
     <circle class="snake-body" cx="0" cy="0" r="6.5">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.326s" />
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="-0.163s" />
     </circle>
 
     <circle class="snake-head" cx="0" cy="0" r="7.5">
-      <animateMotion dur="20s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="0s" />
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 50,270 L 70,270 L 70,250 L 210,250 L 210,210 L 110,210 L 110,130 L 230,130 L 230,90 L 50,90 Z" begin="0s" />
     </circle>
 
     <!-- Map Labels -->
