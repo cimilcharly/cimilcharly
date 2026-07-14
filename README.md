@@ -144,7 +144,7 @@
 ### 🎮 Skill Engine (Snake Simulation)
 
 <div align="center">
-  <img src="simulation.svg" width="550" alt="Skill Engine Snake Simulation" />
+  <img src="simulation.svg?v=1" width="550" alt="Skill Engine Snake Simulation" />
   <br/>
   <sub><i>A visual CSS-animated simulation where a snake eats my core skill targets (Languages → Backend → AI/ML → Cloud Deployment), growing and outputting technical metrics in a live terminal log! 🐍</i></sub>
 </div>
