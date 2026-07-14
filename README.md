@@ -137,7 +137,7 @@
 * 🌐 **Introduction to IoT** — NPTEL, IIT Kharagpur.
 * 🤖 **Build Your Own Chatbot** — IBM.
 * 📊 **Programming for Data Analytics** — L&T EduTech.
-* 🎖️ **Leadership:** NSS General Leader (CHRIST University), Bharat Scouts & Guides Troop Leader.
+* 🎖️ **Leadership:** NSS General Leader , Bharat Scouts & Guides Troop Leader.
 
 ---
 
