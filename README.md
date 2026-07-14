@@ -141,21 +141,12 @@
 
 ---
 
-### 📊 GitHub Stats & Activity
+### 🤖 Neural Network Training (Simulation)
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="top">
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=cimilcharly&show_icons=true&theme=tokyonight&hide_border=true" alt="Cimil's GitHub Stats" />
-      </td>
-      <td align="center" valign="top">
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cimilcharly&layout=compact&theme=tokyonight&hide_border=true" alt="Cimil's Top Languages" />
-      </td>
-    </tr>
-  </table>
+  <img src="./simulation.svg" alt="Neural Network Training Simulation" width="100%" style="max-width: 500px;" />
   <br/>
-  <img src="https://streak-stats.demolab.com?user=cimilcharly&theme=tokyonight&hide_border=true" alt="Cimil's Streak Stats" />
+  <sub><i>A visual CSS-animated simulation of a neural network training in real-time (Feedforward & Backpropagation)! 🧠</i></sub>
 </div>
 
 <br/>
