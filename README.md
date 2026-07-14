@@ -141,12 +141,12 @@
 
 ---
 
-### 🤖 Neural Network Training (Simulation)
+### 🎮 Career Runner (Snake Simulation)
 
 <div align="center">
-  <img src="simulation.svg" width="500" alt="Neural Network Training Simulation" />
+  <img src="simulation.svg" width="550" alt="Career Snake Game Simulation" />
   <br/>
-  <sub><i>A visual CSS-animated simulation of a neural network training in real-time (Feedforward & Backpropagation)! 🧠</i></sub>
+  <sub><i>A visual CSS-animated simulation where a snake eats my career milestones (St. Mary's → CHRIST University → Genrobotics → AI SaaS Projects), growing and outputting metrics in a live terminal! 🐍</i></sub>
 </div>
 
 <br/>
