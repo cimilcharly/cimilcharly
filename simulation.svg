@@ -198,7 +198,7 @@
 
   <!-- Top bar header -->
   <g transform="translate(20, 30)">
-    <text class="header-text" x="0" y="0">🎮 CAREER RUNNER (SNAKE.EXE)</text>
+    <text class="header-text" x="0" y="0">🎮 SKILL ENGINE (SNAKE.EXE)</text>
     
     <!-- Scoreboard (Dynamically toggling opacities) -->
     <text class="text" x="320" y="0">SCORE: </text>
@@ -297,7 +297,7 @@
     <text class="text" x="220" y="315" style="font-size: 8px; fill: #334155;">[LEVEL 1]</text>
   </g>
 
-  <!-- Right Panel: Career Milestones Terminal Console -->
+  <!-- Right Panel: Skill Milestones Terminal Console -->
   <g transform="translate(290, 55)">
     <rect width="295" height="275" rx="6" fill="none" stroke="#1e293b" />
     <rect class="border-glow" width="295" height="275" rx="6" fill="none" />
@@ -307,50 +307,50 @@
 
     <!-- Boot Log -->
     <g class="log-boot" transform="translate(15, 25)">
-      <text class="text green-highlight" x="0" y="0">&gt; BOOTING CAREER.EXE...</text>
-      <text class="text" x="0" y="25">&gt; INITIALIZING MAP SYSTEM</text>
-      <text class="text" x="0" y="50">&gt; HEAD POSITION: (50, 270)</text>
-      <text class="text" x="0" y="75">&gt; SEEKING MILESTONES...</text>
+      <text class="text green-highlight" x="0" y="0">&gt; BOOTING SKILL_CORE...</text>
+      <text class="text" x="0" y="25">&gt; LOADING TECH STACK DATA</text>
+      <text class="text" x="0" y="50">&gt; INITIALIZING MAP SCAN</text>
+      <text class="text" x="0" y="75">&gt; ACQUIRING TARGETS...</text>
     </g>
 
-    <!-- Log 1: Foundation (St. Mary's HSS) -->
+    <!-- Log 1: Languages -->
     <g class="log-state-1" transform="translate(15, 25)">
-      <text class="text green-highlight" x="0" y="0">&gt; EATEN: MILESTONE [1]</text>
-      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">FOUNDATION (2021-2023)</text>
-      <text class="text" x="0" y="50">• St. Mary's CS (97% Avg)</text>
-      <text class="text" x="0" y="70">• Scouts Troop Leader</text>
-      <text class="text" x="0" y="90">• School Representative</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE GROWS +1 segment]</text>
+      <text class="text green-highlight" x="0" y="0">&gt; EATEN: LANGUAGES</text>
+      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">LANGUAGES &amp; SYNTAX</text>
+      <text class="text" x="0" y="50">• Python, Java, C, Kotlin</text>
+      <text class="text" x="0" y="70">• JavaScript &amp; TypeScript</text>
+      <text class="text" x="0" y="90">• OOP Concepts &amp; Structures</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE SEGMENTS +1]</text>
     </g>
 
-    <!-- Log 2: Academics (CHRIST University) -->
+    <!-- Log 2: Backend & DB -->
     <g class="log-state-2" transform="translate(15, 25)">
-      <text class="text green-highlight" x="0" y="0">&gt; EATEN: MILESTONE [2]</text>
-      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">CHRIST UNIV (2023-2027)</text>
-      <text class="text" x="0" y="50">• B.Tech CS (AI &amp; ML)</text>
-      <text class="text" x="0" y="70">• CGPA: 8.8 / 10</text>
-      <text class="text" x="0" y="90">• NSS General Leader</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE GROWS +1 segment]</text>
+      <text class="text green-highlight" x="0" y="0">&gt; EATEN: BACKEND CORE</text>
+      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">BACKEND &amp; DATABASES</text>
+      <text class="text" x="0" y="50">• FastAPI &amp; Django Frameworks</text>
+      <text class="text" x="0" y="70">• PostgreSQL, MongoDB, SQLite</text>
+      <text class="text" x="0" y="90">• RESTful API Engineering</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE SEGMENTS +1]</text>
     </g>
 
-    <!-- Log 3: Industry (Genrobotics Intern) -->
+    <!-- Log 3: AI & ML -->
     <g class="log-state-3" transform="translate(15, 25)">
-      <text class="text green-highlight" x="0" y="0">&gt; EATEN: MILESTONE [3]</text>
-      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">GENROBOTICS INTERN</text>
-      <text class="text" x="0" y="50">• Built core ERP Modules</text>
-      <text class="text" x="0" y="70">• Streamlined operations</text>
-      <text class="text" x="0" y="90">• Govt Copyright Registered</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE GROWS +1 segment]</text>
+      <text class="text green-highlight" x="0" y="0">&gt; EATEN: AI/ML ENGINE</text>
+      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">INTELLIGENCE ENGINE</text>
+      <text class="text" x="0" y="50">• Machine Learning Workflows</text>
+      <text class="text" x="0" y="70">• NLP &amp; Data Pipeline Design</text>
+      <text class="text" x="0" y="90">• LLM Integrations (GPT-4)</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SNAKE SEGMENTS +1]</text>
     </g>
 
-    <!-- Log 4: Projects (SaaS & AI) -->
+    <!-- Log 4: Cloud & Deployment -->
     <g class="log-state-4" transform="translate(15, 25)">
-      <text class="text green-highlight" x="0" y="0">&gt; EATEN: MILESTONE [4]</text>
-      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">AI &amp; SAAS SYSTEMS</text>
-      <text class="text" x="0" y="50">• Sentinel AI: Threat Detection</text>
-      <text class="text" x="0" y="70">• PromiseOS: Live NextJS App</text>
-      <text class="text" x="0" y="90">• Pet Pantry: Django Store</text>
-      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[MAX LENGTH REACHED!]</text>
+      <text class="text green-highlight" x="0" y="0">&gt; EATEN: DEPLOYMENT</text>
+      <text class="text" x="0" y="25" style="fill: #38bdf8; font-weight: bold;">CLOUD &amp; DEPLOYMENT</text>
+      <text class="text" x="0" y="50">• Docker Containerization</text>
+      <text class="text" x="0" y="70">• Google Cloud Platform (GCP)</text>
+      <text class="text" x="0" y="90">• Vercel Deployment &amp; Config</text>
+      <text class="text green-highlight" x="0" y="125" style="font-size: 10px;">[SKILL STACK OPTIMIZED!]</text>
     </g>
   </g>
 

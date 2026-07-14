@@ -141,12 +141,12 @@
 
 ---
 
-### 🎮 Career Runner (Snake Simulation)
+### 🎮 Skill Engine (Snake Simulation)
 
 <div align="center">
-  <img src="simulation.svg" width="550" alt="Career Snake Game Simulation" />
+  <img src="simulation.svg" width="550" alt="Skill Engine Snake Simulation" />
   <br/>
-  <sub><i>A visual CSS-animated simulation where a snake eats my career milestones (St. Mary's → CHRIST University → Genrobotics → AI SaaS Projects), growing and outputting metrics in a live terminal! 🐍</i></sub>
+  <sub><i>A visual CSS-animated simulation where a snake eats my core skill targets (Languages → Backend → AI/ML → Cloud Deployment), growing and outputting technical metrics in a live terminal log! 🐍</i></sub>
 </div>
 
 <br/>
