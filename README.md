@@ -144,7 +144,7 @@
 ### 🤖 Neural Network Training (Simulation)
 
 <div align="center">
-  <img src="./simulation.svg" alt="Neural Network Training Simulation" width="100%" style="max-width: 500px;" />
+  <img src="simulation.svg" width="500" alt="Neural Network Training Simulation" />
   <br/>
   <sub><i>A visual CSS-animated simulation of a neural network training in real-time (Feedforward & Backpropagation)! 🧠</i></sub>
 </div>
